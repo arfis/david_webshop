@@ -1,0 +1,30 @@
+@import '../../lib/colors';
+
+.wrapper {
+  margin: 0 200px 50px 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview {
+  width: 100%;
+}
+
+.description {
+  font-style:italic;
+}
+
+.order {
+  background-color: $color-autumn;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

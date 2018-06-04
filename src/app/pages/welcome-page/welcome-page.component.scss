@@ -1,0 +1,12 @@
+@import '../../lib/_colors.scss';
+
+:host {
+  width: 100%;
+}
+
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

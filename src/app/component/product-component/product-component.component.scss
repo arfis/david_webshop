@@ -1,0 +1,27 @@
+@import '../../lib/colors';
+
+.product {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid $color-shadow;
+  overflow:hidden;
+}
+
+.img-teaser {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.content {
+  padding: 10px;
+  overflow:hidden;
+}
+
+h4 {
+  text-transform: uppercase;
+}

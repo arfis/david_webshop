@@ -1,0 +1,17 @@
+.dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-wrapper {
+  display: inline-block;
+  position:relative;
+  height: 100%;
+}
+
+.header {
+  margin: 0;
+  display: block;
+  width: 100%;
+}

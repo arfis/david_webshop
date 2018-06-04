@@ -1,0 +1,42 @@
+@import '../../lib/colors';
+
+:host {
+  display: flex;
+  background-color: $color-shadow;
+}
+
+.header-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navigation {
+  display: flex;
+  padding: 10px;
+  float: right;
+}
+
+.navigation > div {
+  color: white;
+  transition: all 0.4s;
+  border-left: 1px solid darkgray;
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-autumn;
+    //background-color: $color-autumn;
+  }
+}
+

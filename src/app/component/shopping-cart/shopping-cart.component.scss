@@ -1,0 +1,9 @@
+@import '../../lib/colors';
+
+mat-icon {
+  color:white;
+}
+
+.not-empty {
+  color: $color-stone !important;
+}
